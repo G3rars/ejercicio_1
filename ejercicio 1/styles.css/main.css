@@ -1,0 +1,113 @@
+.header{
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.logo1{
+    padding: 20px;
+    width: 180px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.nav{
+    
+    display: inline-block;
+    padding: 20px;
+    padding-left: 1500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(41, 138, 250)
+    
+}
+
+.buttoms article{
+    display: inline ;
+
+}
+
+.title{
+    margin-left: 20px;
+    padding: 60px;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.buttoms p{
+    margin-left: 10px;
+    display: inline;
+}
+
+.lgoo{
+    margin-left: 65px;
+    width: 300px;
+    height: 41px;
+    
+}
+
+.lfc{
+    width: 300px;
+}
+
+.div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 40px;
+
+}
+
+.section__data{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+
+.boxes {
+    box-sizing: border-box;
+    width: 700px;
+    height: 40px;
+    
+    
+    
+}
+
+.boxemail legend{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+.block input{
+    
+}
+
+.buttomSign{
+  text-align: center;
+  color: gray;
+  width: 200px;
+  height: 20px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  border: 2px solid gray ;
+  border-radius: 10px;
+  
+}

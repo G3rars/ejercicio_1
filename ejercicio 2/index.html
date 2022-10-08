@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://www.drupal.org/files/project-images/MC_Logo.jpg" alt="logoShimp" width="200px" height="200px">
+        <h1>Welcome to Mailchimp</h1>´
+        <p>Find your people. Engage your Customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a href="logi.com">Log In</a></p>
+    </header>
+    <main>
+
+        <section>
+
+            <form action="">
+                <fieldset>
+                    <legend>Email</legend>
+                    <input type="email"
+                    placeholder="e.g jonh.wood@email.com"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+                    required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Username</legend>
+                    <input type="text"
+                    placeholder="Username"
+                    pattern="[A-Za-z0-9]+"
+                    minlength="4"
+                    maxlength="14"
+                    required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Password</legend>
+                    <input type="password"
+                    minlength="4"
+                    maxlength="8"
+                    required
+                    pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" />
+                    
+                </fieldset>
+
+                <p>
+                    <ul>
+                        <li>One lowercase character</li>
+                        <li>One uppercase character</li>
+                        <li>One number</li>
+                        <li>One special character</li>
+                        <li>8 character minimum</li>
+                    </ul>
+                </p>
+
+                <fieldset>
+                    <input type="checkbox" />
+                    <label for="checkbox">I don't want to receive emails about new Mailchimp product, best practices, or special offers.</label>
+                </fieldset>
+
+                <input type="submit" value="Sign Up">
+
+            </form>
+
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailshimp's <a href="terms">Terms of Use</a> and <a href="privacy">Privacy Policy</a></p>
+    </footer>
+    
+</body>
+</html>
